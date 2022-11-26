@@ -28,6 +28,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    text-decoration: underline;
+    color:#C78C19;
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -50,6 +55,35 @@ nav a {
     row. The "vertical-align: top" property causes the elements to be
     aligned by the top line. */
     vertical-align: top;
+
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+    /* border-color: #000000;
+    border-width: 2px;
+    border-style: solid; */
+
+    /* The "border" property contains the "border-color", "border-width" and "border-style" properties. */
+
+    border: 2px solid #000000;
+
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+/* When we hover over ".produtos li", we want to change the
+style of "h2" element. */
+
+.produtos li:hover h2 {
+    font-size: 34px;
 }
 
 .produtos h2 {
@@ -64,4 +98,5 @@ nav a {
 .produto-preco {
     font-size: 22px;
     font-weight: bold;
+    margin: 10px 0 0;
 }
