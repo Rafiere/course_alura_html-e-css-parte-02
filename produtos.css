@@ -27,3 +27,41 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+
+    padding: 50px 0;
+}
+
+.produtos li {
+
+    /* The "inline-block" display causes the content to occupy only its size. We
+    can change this size manually if needed. */
+
+    display: inline-block;
+
+    text-align: center;
+
+    width: 30%;
+
+    /* By default, the "inline-block" aligns elements along the bottom
+    row. The "vertical-align: top" property causes the elements to be
+    aligned by the top line. */
+    vertical-align: top;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+}
