@@ -100,3 +100,15 @@ style of "h2" element. */
     font-weight: bold;
     margin: 10px 0 0;
 }
+
+footer {
+    text-align: center;
+    background-image: url("./assets/bg.jpg");
+    padding: 40px 0px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
